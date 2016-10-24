@@ -9,5 +9,4 @@ import java.util.List;
 public interface OrderDao {
 
     void post(Order order);
-    List<Order> get();
 }

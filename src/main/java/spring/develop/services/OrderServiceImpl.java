@@ -23,7 +23,4 @@ public class OrderServiceImpl implements OrderService{
         dao.post(order);
     }
 
-    public List<Order> get() {
-      return  dao.get();
-    }
 }

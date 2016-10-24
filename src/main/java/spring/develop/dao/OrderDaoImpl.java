@@ -17,11 +17,7 @@ public class OrderDaoImpl implements OrderDao {
     private EntityManager em;
 
     public void post(Order order) {
-        System.out.println("    PERSIST  ");
         em.persist(order);
     }
 
-    public List<Order> get() {
-        return  em.createQuery("select o from orders o", Order.class).getResultList();
-    }
 }

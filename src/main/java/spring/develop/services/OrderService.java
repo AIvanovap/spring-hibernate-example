@@ -10,6 +10,5 @@ import java.util.List;
 public interface OrderService {
 
     void post(Order order);
-    List<Order> get();
 
 }
